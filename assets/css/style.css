@@ -203,7 +203,7 @@ input[type=submit] {
 	background: #4aaaa5;
 	}
 
-	@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
 		#myname {
 	   }
 	 
@@ -217,7 +217,7 @@ input[type=submit] {
 	   }
 	 }
 	 
-	 @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 		#myname {
 		   position: static;
 		 }
@@ -241,12 +241,12 @@ input[type=submit] {
 		 }
 	 
 	 
-		 #main-container {
+		 .container {
 			 padding: 20px;
 	 
 		 }
 	 
-		 .main-section {
+		 .main-content {
 			 float: left;
 			 max-width: 768px;
 	 
@@ -278,7 +278,7 @@ input[type=submit] {
 		 text-align: center;
 	   }
 	 
-	   .main-section {
+	   .container{
 		   display: table-cell;
 	   }
 	 
@@ -290,11 +290,11 @@ input[type=submit] {
 	   margin: 0 0 40px 0;}
 	 }
 	 
-	   #main-container {
+	   #main-content {
 		 padding: 20px;
 	   }
 	 
-	   .main-section {
+	   .main-content {
 		   float: left;
 		   width: 600px;
 	   }
